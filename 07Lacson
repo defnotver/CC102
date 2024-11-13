@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int temperature;
+	cout << "Enter the  temperature";
+	cin >>temperature;
+	
+	if (temperature < 32){
+		cout << "Bring a heavy jacket. It's quite cold outside!" << endl;
+	}
+	else if (temperature >= 32 && temperature <= 50){
+		cout << "A light jacket should be sufficient for today's weather";
+	} 
+	else {
+		cout <<  "No jacket needed! Enjoy the warm weather";
+	
+	}
+
+	return 0;
+	
+}
